@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindMyTrip - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">FindMyTrip</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search (e.g., beach, temple, country)">
+            <button id="btnSearch">Search</button>
+            <button id="btnClear">Clear</button>
+        </div>
+    </nav>
+
+    <main class="home-intro">
+        <h1>Welcome to FindMyTrip</h1>
+        <p>Your ultimate travel recommendation platform. Whether you are looking for serene beaches, historic temples, or exciting new countries to explore, we have the best destinations curated just for you. Use the search bar above to start planning your next adventure!</p>
+        
+        <div id="searchResults" class="results-grid"></div>
+    </main>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
